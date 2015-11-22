@@ -1,0 +1,75 @@
+{
+    "name": "golr-numbers-service",
+    "version": "0.0.1",
+    "license": "BSD-3-Clause",
+    "description": "A service API and minimal webapp for accessing bulk numbers and calculations from a GOlr backend.",
+    "keywords": [
+        "amigo",
+        "golr",
+	"numbers",
+	"calculation",
+	"enrichment",
+        "application",
+        "bbop",
+        "gene ontology",
+        "GO"
+    ],
+    "author": "SJC <sjcarbon@lbl.gov>",
+    "homepage": "http://berkeleybop.org/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/berkeleybop/golr-numbers-service.git"
+    },
+    "engines": {
+        "node": ">= 0.12.2",
+        "npm": ">= 2.7.4"
+    },
+    "dependencies": {
+        "amigo2": "2.4.0",
+        "bbop": "2.4.0",
+        "bbop-core": "0.0.5",
+        "bbop-manager-golr": "0.0.2",
+        "bbop-rest-manager": "0.0.7",
+        "bbop-response-golr": "0.0.5",
+        "body-parser": "1.13.3",
+        "express": "4.13.3",
+        "golr-conf": "0.0.3",
+        "markdown": "0.5.0",
+        "minimist": "0.2.0",
+        "mustache": "2.0.0",
+        "pup-tent": "0.9.10",
+        "expand-home-dir": "0.0.2",
+        "request": "2.65.0",
+        "underscore": "1.8.3",
+        "yamljs": "0.2.3"
+    },
+    "devDependencies": {
+        "chai": "^2.3.0",
+        "gulp": "^3.8.11",
+        "gulp-bump": "^0.3.0",
+        "gulp-flatten": "0.1.0",
+        "gulp-git": "^1.2.3",
+        "gulp-jsdoc": "^0.1.4",
+        "gulp-mocha": "^2.0.1",
+        "gulp-shell": "0.4.3",
+        "gulp-uglify": "^1.2.0",
+        "mocha": "2.3.3",
+        "vinyl-source-stream": "1.1.0",
+        "watchify": "^3.2.1",
+        "jsdoc": "^3.3.0",
+        "jsdoc-baseline": "git://github.com/hegemonic/jsdoc-baseline.git#74d1dc8075"
+    },
+    "bundleDependencies": [],
+    "private": false,
+    "main": "",
+    "bugs": {
+        "url": "https://github.com/berkeleybop/golr-numbers-service/issues"
+    },
+    "directories": {
+        "doc": "doc",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
